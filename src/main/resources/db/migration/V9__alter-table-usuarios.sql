@@ -1,0 +1,3 @@
+ALTER TABLE usuarios
+ADD COLUMN token VARCHAR(64),
+ADD COLUMN expiracao_token TIMESTAMP;
